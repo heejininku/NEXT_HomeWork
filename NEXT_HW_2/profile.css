@@ -1,0 +1,176 @@
+body {
+    font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+}
+
+header {
+    display: flex;
+    width: 1000px;
+    height: 100px;
+    margin: 150px auto;
+    flex-direction: column;
+}
+
+.profile-top-info {
+    margin-left: 50px;
+    display: flex;
+    align-items: center; /* 세로 가운데 정렬 */
+    justify-content: space-between; /* 가로 가운데 정렬 */
+}
+
+.profile-top-info img {
+    width: 30px; /* 아이콘 크기 설정 */
+    height: 30px; /* 아이콘 크기 설정 */
+    margin-right: 300px; /* 아이콘 사이 간격 설정 */
+}
+.profile-top-info img.icon {
+    margin-left: auto;
+}
+.usertopname {
+    font-weight: bold;
+    font-size: 40px;
+    margin-right: 500px; /* 아이콘 사이 간격 설정 */
+}
+
+.cute_friends_btn {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px; /* 각 요소 사이의 간격 조절 */
+}
+
+#Friends_Btn {
+    border: none;
+    border-radius: 100%;
+    overflow: hidden;
+    margin-top: 10px;
+    margin-left: 5%;
+    width: 250px;
+    height: 250px;
+}
+
+.profileInfoContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.profileInfo1,
+.profileInfo2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 200px;
+}
+
+.cute_friends_btn .profileInfo1 ul li {
+    display: inline-block;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 50px;
+}
+
+.cute_friends_btn .profileInfo2 ul li {
+    display: inline-block;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: 5px;
+}
+
+.userPhoto {
+    border-radius: 90%;
+    object-fit: cover;
+    width: 250px;
+    height: 250px;
+}
+
+.userInfo {
+    display: flex;
+    flex-direction: column;
+    padding-left: 80px;
+}
+
+.userName {
+    display: flex;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+#editthreadsBtn {
+    background-color: lightgray;
+    color: rgb(0, 0, 0);
+    width: auto;
+    height: 30px;
+    padding: 5px 20px 5px;
+    font-size: 15px;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+}
+
+#FollowBtn {
+    background-color: rgb(12, 122, 233);
+    color: white;
+    width: auto;
+    height: 50px;
+    margin-top: 10px;
+    padding: 10px 150px 30px;
+    font-size: 15px;
+    font-weight: bold;
+    border: 2px solid rgb(12, 122, 233);
+    border-radius: 5px;
+}
+#MessageBtn {
+    background-color: lightgray;
+    color: rgb(0, 0, 0);
+    width: auto;
+    height: 50px;
+    margin-left: 10%;
+    margin-top: 10px;
+    padding: 10px 150px 30px;
+    font-size: 15px;
+    font-weight: bold;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+}
+
+.profileInfo1 ul li {
+    display: inline-block;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: normal;
+}
+.profileInfo2 ul li {
+    display: inline-block;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+#profilePosting1 {
+    font-size: 15px;
+    font-weight: normal;
+    color: rgb(0, 0, 0);
+}
+#profilePosting2 {
+    font-size: 15px;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+}
+
+.profileexplain {
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+}
+
+main {
+    width: 300px;
+    height: 300px;
+    margin: 600px auto 0px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.photoPosting:hover {
+    filter: opacity(0.8) drop-shadow(0 0 0 rgb(0, 0, 0));
+}
